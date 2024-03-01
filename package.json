@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "jest && nodemon src/index.ts",
     "start": "ts-node src/index.ts",
-    "build": "ts-node src/index.ts",
+    "build": "tsc",
     "test": "npx jest"
   },
   "keywords": [],
