@@ -1,0 +1,9 @@
+# Exclude node_modules directory
+node_modules
+
+# Exclude development and editor-speficic files
+.env
+.gitignore
+
+# Exclude build and temporary files
+dist/
