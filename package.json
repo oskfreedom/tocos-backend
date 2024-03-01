@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "jest && nodemon src/index.ts"
+    "dev": "jest && nodemon src/index.ts",
+    "start": "node index.ts",
+    "test": "npx jest"
   },
   "keywords": [],
   "author": "",
