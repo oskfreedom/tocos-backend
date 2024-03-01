@@ -17,4 +17,4 @@ jobs:
       - name: Install Dependencies
         run: yarn --frozen-lockfile --silent
       - name: Build app
-        run: yarn build --if-present
+        run: yarn build
