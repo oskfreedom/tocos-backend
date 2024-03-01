@@ -5,8 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "jest && nodemon src/index.ts",
-    "start": "node src/index.ts",
-    "build": "node src/index.ts",
+    "start": "ts-node src/index.ts",
+    "build": "ts-node src/index.ts",
     "test": "npx jest"
   },
   "keywords": [],
